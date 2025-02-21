@@ -3,45 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Check Dashboard</title>
+    <title>EA Mobile Host</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="#dashboard">Dashboard</a></li>
-            <li><a href="#generate-key">Generate License Keys</a></li>
-            <li><a href="#manage-ea">Manage EA</a></li>
-            <li><a href="#purchase-key">Purchase License Key</a></li>
-            <li><a href="#login">Login</a></li>
-        </ul>
-    </div>
+    <header>
+        <h1>EA Mobile Host </h1>
+    </header<section class="auth-section">
+        <h2>Login or Sign Up</h2>
+        <div class="auth-container">
+            <div class="auth-box">
+                <h3>Login</h3>
+                <form id="login-form">
+                    <input type="email" id="login-email" placeholder="Email" required>
+                    <input type="password" id="login-password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                    <a href="#" id="forgot-password">Forgot Password?</a>
+                </form>
+            </div>
 
-    <div id="dashboard">
-        <h1>Welcome to Your Dashboard</h1>
-        <p>View your account details, manage your EA, and more...</p>
-    </div>
-
-    <div id="generate-key">
-        <h1>Generate License Key</h1>
-        <button id="generateBtn">Generate Key</button>
-    </div>
-
-    <div id="manage-ea">
-        <h1>Manage EA</h1>
-        <button id="manageBtn">Manage EA</button>
-    </div>
-
-    <div id="purchase-key">
-        <h1>Purchase License Key</h1>
-        <p>Click below to purchase a license key.</p>
-        <button id="purchaseBtn">Purchase Now</button>
-    </div>
-
-   
-        </form>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+            <div class="auth-box">
+                <h3>Sign Up</h3>
+                <form id="signup-form">
+                    <input type="email" id="signup-email" placeholder="Email" required>
